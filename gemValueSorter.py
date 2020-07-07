@@ -83,8 +83,6 @@ while gems == True:
         first -= 1
         if first > difference:
             first = difference - 1
-        elif first == (difference - 1):
-            continue
         if first < 0:
             hitZero = True
 
